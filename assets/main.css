@@ -1,0 +1,18 @@
+body{
+    background: hsla(0, 88%, 48%, 1);
+
+    background: linear-gradient(360deg, hsla(0, 88%, 48%, 1) 37%, hsla(0, 0%, 0%, 1) 50%, hsla(0, 0%, 100%, 1) 61%);
+    
+    background: -moz-linear-gradient(360deg, hsla(0, 88%, 48%, 1) 37%, hsla(0, 0%, 0%, 1) 50%, hsla(0, 0%, 100%, 1) 61%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(0, 88%, 48%, 1) 37%, hsla(0, 0%, 0%, 1) 50%, hsla(0, 0%, 100%, 1) 61%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e60f0f", endColorstr="#000000", GradientType=1 );
+}
+
+.btn-secondary {
+    font-family: 'Montserrat', sans-serif;
+    background:0;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px #fff;
+}
